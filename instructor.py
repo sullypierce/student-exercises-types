@@ -9,4 +9,7 @@ class Instructor:
         self.specialty = specialty
 
     def assign_exercise(self, student, exercise):
-        student.add_exercise(exercise)
+        if self.cohort == student.cohort:
+            student.add_exercise(exercise)
+        else:
+            print("That student is not in your cohort")

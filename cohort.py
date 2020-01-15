@@ -1,3 +1,5 @@
+from student import Student
+
 class Cohort:
     def __init__(self, name):
         self.name = name
@@ -12,3 +14,7 @@ class Cohort:
     def add_instructor(self, new_instructor):
         new_instructor.cohort = self.name
         self.instructors.append(new_instructor)
+
+    def list_student_exercises(self):
+        for student in self.students:
+            student.list_exercises()
