@@ -8,8 +8,8 @@ exercise1 = Exercise("do something", "python")
 exercise2 = Exercise("do anything", "python")
 exercise3 = Exercise("make something", "python")
 exercise4 = Exercise("make anything", "python")
-
-#create cohorts
+ 
+#create cohorts 
 cohort36 = Cohort("Cohort 36")
 cohort35 = Cohort("Cohort 35")
 cohort37 = Cohort("Cohort 37")
