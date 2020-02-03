@@ -19,4 +19,4 @@ class Student(Nss_person):
                 exercise_string += ", "
             else:
                 exercise_string += "."
-        print(f"{self.first_name} {self.first_name} is working on {exercise_string}")
+        print(f"{self.first_name}  is working on {exercise_string}")

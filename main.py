@@ -50,6 +50,6 @@ joe.assign_exercise(ryan3, exercise2)
 print(ryan1.cohort)
 
 cohort36.list_student_exercises()
- 
+
 
 
