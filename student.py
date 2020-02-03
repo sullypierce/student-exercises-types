@@ -1,9 +1,8 @@
-class Student:
+from nss_person import Nss_person
+
+class Student(Nss_person):
     def __init__(self, first_name, last_name, slack_handle):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.slack_handle = slack_handle
-        self.cohort = ""
+        super().__init__(first_name, last_name, slack_handle)
         self.exercises = list()
 
     def add_exercise(self, new_exercise):
@@ -20,4 +19,4 @@ class Student:
                 exercise_string += ", "
             else:
                 exercise_string += "."
-        print(f"{self.first_name} {self.first_name} is working on {exercise_string}")
+        print(f"{self.first_name}  is working on {exercise_string}")
