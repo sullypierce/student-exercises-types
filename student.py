@@ -4,7 +4,7 @@ class Student:
         self.last_name = last_name
         self.slack_handle = slack_handle
         self.cohort = cohort_name
-        self.exercises = list()
+        self.exercises = dict()
 
     def add_exercise(self, new_exercise):
         self.exercises.append(new_exercise)
